@@ -1,0 +1,47 @@
+{
+    "name": "request",
+    "version": "1.0.0",
+    "description": "基于fetch的http网络请求",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "scripts": {
+        "test": "jest",
+        "watch": "rollup -c -w",
+        "build": "NODE_ENV=development rollup -c",
+        "pub": "NODE_ENV=production rollup -c && npm publish"
+    },
+    "author": "Thestral.Li,Daniel.Zhao",
+    "license": "ISC",
+    "files": [
+        "dist",
+        "lib",
+        "es",
+        "index.d.ts"
+    ],
+    "typings": "index.d.ts",
+    "devDependencies": {
+        "@babel/core": "^7.18.5",
+        "@babel/eslint-parser": "^7.18.2",
+        "@babel/plugin-proposal-object-rest-spread": "^7.18.0",
+        "@babel/preset-env": "^7.18.2",
+        "babel-jest": "^28.1.1",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-plugin-transform-remove-console": "^6.9.4",
+        "eslint": "^8.18.0",
+        "eslint-plugin-babel": "^5.3.1",
+        "eslint-plugin-import": "^2.26.0",
+        "jest": "^28.1.1",
+        "jest-environment-jsdom": "^28.1.1",
+        "regenerator-runtime": "^0.13.7",
+        "rollup": "^2.75.6",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-eslint": "^7.0.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-uglify": "^6.0.4"
+    },
+    "dependencies": {
+        "abortcontroller-polyfill": "^1.7.3",
+        "whatwg-fetch": "^3.6.2"
+    }
+}
