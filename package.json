@@ -1,5 +1,5 @@
 {
-    "name": "request",
+    "name": "z-request",
     "version": "1.0.0",
     "description": "基于fetch的http网络请求",
     "main": "lib/index.js",
