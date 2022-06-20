@@ -1,5 +1,5 @@
 {
-    "name": "z-request",
+    "name": "x-simple-fetch",
     "version": "1.0.0",
     "description": "基于fetch的http网络请求",
     "main": "lib/index.js",
@@ -22,6 +22,7 @@
     "devDependencies": {
         "@babel/core": "^7.18.5",
         "@babel/eslint-parser": "^7.18.2",
+        "@babel/plugin-external-helpers": "^7.17.12",
         "@babel/plugin-proposal-object-rest-spread": "^7.18.0",
         "@babel/preset-env": "^7.18.2",
         "babel-jest": "^28.1.1",

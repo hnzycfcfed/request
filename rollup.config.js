@@ -3,7 +3,7 @@ import { eslint } from 'rollup-plugin-eslint';
 import { uglify } from 'rollup-plugin-uglify';
 import pkg from './package.json';
 
-const pkgName = pkg.name;
+const pkgName = `request`;
 
 const plugins = [
     babel(),

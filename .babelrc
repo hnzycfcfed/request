@@ -22,7 +22,7 @@
         },
         "production": {
             "plugins": [
-                "external-helpers",
+                "@babel/plugin-external-helpers",
                 "transform-remove-console"
             ]
         }
