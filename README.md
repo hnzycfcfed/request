@@ -7,7 +7,7 @@
 ### 通过npm安装
 
 ```bash
-npm i --save @hnzycfc/request
+npm i --save @hnzycfcfed/request
 ```
 
 ### 使用
@@ -15,7 +15,7 @@ npm i --save @hnzycfc/request
 ---
 
 ```javascript
-import request, { get, post, put, del } from '@hnzycfc/request';
+import request, { get, post, put, del } from '@hnzycfcfed/request';
 
 request(url, options);
 get(url, options);
@@ -46,7 +46,7 @@ String 类型，请求 API 接口地址, e.g. <https://api.l-blog.me/q-signals>
 #### abort
 
 ```javascript
-import { abort } from '@hnzycfc/request';
+import { abort } from '@hnzycfcfed/request';
 
 abort(name, callback);
 ```
